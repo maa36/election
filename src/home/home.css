@@ -1,0 +1,84 @@
+.formSignIn input  {
+  display: block;
+  width: 100%;
+  height: calc(1.5em + 0.75rem + 2px);
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.sign-in input  {
+  display: block;
+  width: 100%;
+  height: calc(1.5em + 0.75rem + 2px);
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.InputMask {
+  display: block;
+  width: 100%;
+  height: calc(1.5em + 0.75rem + 2px);
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.formSignIn input:invalid { 
+  border: 2px solid rgb(204, 59, 59);
+}
+label {
+    text-align: end
+}
+.formSignIn {
+    left : 10em;
+    text-align: center;
+    width: 20em;
+}
+.sign-in{
+  width: 25%;
+}
+.principal{
+  display: flex;
+  flex-direction: column;
+  width: 100% ;
+  height: 100%;
+  color: rgb(246, 250, 252);
+  background-image: url("https://as2.ftcdn.net/jpg/00/67/10/23/500_F_67102337_INsstogD88LwsA7f92WdZpWb2l3Uue22.jpg");
+  /* background-image: url("../images/img1.jpg");
+  background-image: url("https://images.unsplash.com/photo-1477281765962-ef34e8bb0967?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=632&q=8"); */
+  background-repeat: no-repeat;
+  background-size: 100%;
+  font-family: "Comic Sans MS";
+}.formulaire{
+  display: flex;
+  justify-content: space-around
+}
+.inscription {
+  display: flex;
+ 
+  width: 25%;
+  margin-left: 150px;
+  border : 2px solid red;
+  border-radius: 5px;
+
+}
